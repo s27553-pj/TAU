@@ -1,0 +1,14 @@
+{
+  "name": "tau-bdd",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "cucumber-js --publish-quiet",
+    "test:chrome": "BROWSER=chrome cucumber-js --publish-quiet",
+    "test:safari": "BROWSER=safari cucumber-js --publish-quiet"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^11.0.0",
+    "selenium-webdriver": "^4.27.0"
+  }
+}
